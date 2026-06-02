@@ -1,7 +1,7 @@
 import mitt from "mitt";
 
 export type AdminEvents = {
-  productSelected: { sku: string };
+  productSelected: { id: number };
   productDeleted: { id: number };
   categoryDeleted: { id: number };
 };
