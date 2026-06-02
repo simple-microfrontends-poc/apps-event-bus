@@ -9,6 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "declaration": true,
+    "outDir": "./dist",
     "moduleResolution": "bundler"
   }
 }
